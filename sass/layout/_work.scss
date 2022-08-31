@@ -1,0 +1,37 @@
+
+.wdwd-blocks,
+.privileges-blocks,
+.team-list {
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.wdwd-list {
+    position: relative;
+}
+.list .wdwd-list + .wdwd-list,
+.list .team-card + .team-card {
+    margin-left: 30px;
+}
+
+.what-do-we-do {
+    padding-top: 0;
+    padding-bottom: 94px;
+}
+
+.wdwd-lable {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 70px;
+    left: 0;
+    bottom: 0;
+    background-color: rgba(47, 48, 58, 0.8);
+}
+.wdwd-lable-tittle {
+    font-size: inherit;
+    text-transform: uppercase;
+    white-space: nowrap;
+    color: var(--bgc-header);
+}

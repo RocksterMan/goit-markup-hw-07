@@ -1,0 +1,38 @@
+
+.privileges {
+    display: flex;
+    padding: 94px 0;
+}
+
+.privileges-list {
+    width: 270px;
+}
+.privileges-icon-fon {
+    display: flex;
+    height: 120px;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--bgc-team);
+    border-radius: 4px;
+    margin-bottom: 30px;
+}
+
+.list .privileges-list + .privileges-list,
+.list .team-list + .team-list {
+    margin-left: 30px;
+}
+
+.privileges-tittle {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--fst-text-color);
+    margin-bottom: 10px;
+}
+.privileges-text {
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--snd-text-color);
+}
