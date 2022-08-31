@@ -3,11 +3,14 @@
     display: flex;
     padding: 94px 0;
 }
-
-.privileges-list {
+.privileges-blocks {
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.privileges-item {
     width: 270px;
 }
-.privileges-icon-fon {
+.privileges-item__icon-fon {
     display: flex;
     height: 120px;
     justify-content: center;
@@ -17,12 +20,11 @@
     margin-bottom: 30px;
 }
 
-.list .privileges-list + .privileges-list,
-.list .team-list + .team-list {
+.list .privileges-item + .privileges-item {
     margin-left: 30px;
 }
 
-.privileges-tittle {
+.privileges-item__title {
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
@@ -31,7 +33,7 @@
     color: var(--fst-text-color);
     margin-bottom: 10px;
 }
-.privileges-text {
+.privileges-item__text {
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: var(--snd-text-color);

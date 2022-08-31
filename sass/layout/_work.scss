@@ -1,24 +1,22 @@
-
-.wdwd-blocks,
-.privileges-blocks,
-.team-list {
-    flex-wrap: wrap;
-    justify-content: center;
-}
-.wdwd-list {
-    position: relative;
-}
-.list .wdwd-list + .wdwd-list,
-.list .team-card + .team-card {
-    margin-left: 30px;
-}
-
-.what-do-we-do {
+.work {
     padding-top: 0;
     padding-bottom: 94px;
 }
 
-.wdwd-lable {
+.work-list {
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.work-list__item {
+    position: relative;
+}
+
+.list .work-list__item + .work-list__item {
+    margin-left: 30px;
+}
+
+.work-list__lable {
     position: absolute;
     display: flex;
     align-items: center;
@@ -29,7 +27,8 @@
     bottom: 0;
     background-color: rgba(47, 48, 58, 0.8);
 }
-.wdwd-lable-tittle {
+
+.work-lable__title {
     font-size: inherit;
     text-transform: uppercase;
     white-space: nowrap;
